@@ -1,0 +1,81 @@
+body {
+    background-color:goldenrod;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.container {
+    background-color:lightslategray;
+    padding: 3rem;
+    border-radius: 5rem;
+    box-shadow: 0px 10px 10px ;
+    border: solid black 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 1rem;
+    column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    margin: 0;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+.characterAmountContainer {
+    display: flex;
+    align-items: center;   
+}
+
+.numberInput {
+    width: 2rem;
+    font-weight: bold;
+    color: rgba(0,0,0,0.75);
+}
+
+.password-display {
+    background-color: white;
+    padding: 1rem 3rem;
+    color: black;
+    border-radius: 1rem;
+    height: 2rem;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    border: black 2px solid;
+}
+
+.btn {
+    grid-column: span 2;
+    background-color: transparent;
+    border: solid white 2px;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: background 0.25s ease-in;
+}
+
+.btn:hover {
+    background-color: #FFFFFF33;
+}
