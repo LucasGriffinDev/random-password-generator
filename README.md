@@ -8,7 +8,7 @@ used forms, addevent listeners, transisions (css), Math.random, chaCodes, concat
 
 live demo link here:
 
-https://suburbanturnip.github.io/random-password-generator/
+[working Demo](https://lucasgriffindev.github.io/random-password-generator/)
 
 
  
